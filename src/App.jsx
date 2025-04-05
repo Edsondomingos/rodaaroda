@@ -81,6 +81,7 @@ function App() {
     const result = confirm('Reiniciar todo o jogo do zero? Tem certeza?')
     if (result) {
       setPalavras([])
+      setPalavrasRemovidas([])
       setPalavraAtual('')
       setDicaAtual('')
       setAddJogo(true)
