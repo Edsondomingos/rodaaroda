@@ -242,16 +242,18 @@ function App() {
 
               <div>
                 <h1>Regras</h1>
-                <ul>
+                <ol>
                   <li>Após os participantes serem escolhidos, sera estabelecido a sequencia de jogadores (1º, 2º ...)</li>
                   <li>Antes de poder falar a letra, o participante (grupo), precisar saber o premio por acertar a letra</li>
                   <li>Cada participante pode falar apenas uma letra por vez após o
                     premio acumulativo ser mostrado aleatoriamente</li>
+                    <li>Caso o participante acerte a letra, poderá ter a chance de um novo premio aleatorio e arriscar uma nova letra</li>
+                    <li>Caso erre a letra, passará a sua vez, mas continuará com o premio acumulado</li>
                   <li>O participante pode arriscar a palavra apenas se sobrarem no minimo 3 letras</li>
                   <li>Apenas um unico participante por rodada ganha o seu proprio premio acumulado na rodada</li>
                   <li>Ao fim, o vencedor será o participante que tiver a maior quantidade de premios acumulados em todas as rodadas.</li>
                   <li>Entre as opções de prêmios, há opções de PERDER ou PASSAR A VEZ, sem ter chance falar nenhuma letra ou arriscar a palavra nas respectivas opções.</li>
-                </ul>
+                </ol>
               </div>
             </article>
             <button onClick={() => setModal(false)} className='btn-fechar'>Fechar</button>

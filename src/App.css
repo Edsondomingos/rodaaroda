@@ -8,26 +8,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .container {
   position: relative;
 }
 
-/* div {
-  box-sizing: border-box;
-} */
-
 .ajuda {
-  /* background-color: bisque; */
-  width: 90vw;
-  height: 10vh;
+  width: 100vw;
+  height: 5vh;
 }
 
 .palavra {
-  width: 90vw;
-  height: 45vh;
+  width: 100vw;
+  height: 55vh;
   background: #0699c5;
   flex-direction: column;
 }
@@ -37,15 +31,7 @@
 }
 
 .palavra-letra {
-  /* background: #fff;
-  padding: .5em;
-  color: #000;
-  font-size: 2em;
-  font-weight: 700; */
-
   padding: .2em .5em;
-  /* width: 2em;
-  height: 2em; */
   background-color: #f3f8fa;
   border: 2px solid #000;
   margin: 1px;
@@ -95,7 +81,7 @@
 }
 
 .roleta {
-  width: 90vw;
+  width: 100vw;
   height: 40vh;
   background: #fff;
   position: relative;
@@ -108,12 +94,10 @@
 }
 
 .roleta-opcao {
-  /* border: 1px solid #FFF; */
   width: 10%;
   height: 100%;
   position: relative;
   overflow: hidden;
-  /* animation: rodar 5s linear infinite; */
 }
 
 .roleta-opcao:nth-child(even) {
@@ -130,7 +114,6 @@
   width: 10em;
   position: absolute;
   bottom: 50px;
-  /* color: ; */
 }
 
 .seta {
