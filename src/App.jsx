@@ -214,10 +214,10 @@ function App() {
                 <p className='roleta-opcao-nome'>1 Doce</p>
               </div>
               <div className="roleta-opcao centralizar">
-                <p className='roleta-opcao-nome'>2 Doce</p>
+                <p className='roleta-opcao-nome'>2 Doces</p>
               </div>
               <div className="roleta-opcao centralizar">
-                <p className='roleta-opcao-nome'>3 Doce</p>
+                <p className='roleta-opcao-nome'>3 Doces</p>
               </div>
               <div className="roleta-opcao centralizar">
                 <p className='roleta-opcao-nome'>Passa a Vez</p>
